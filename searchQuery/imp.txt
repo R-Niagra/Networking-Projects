@@ -1,0 +1,8 @@
+At first we made a socket object and bound it with the client through ip and port. 
+1: Sever sends message to the client for the query! In return client sends query in return.
+2: Server then starts checking through the files in bbcsport(provided). Here approach is that if server encounter file having extension(e.g .txt) it opens it up and read through every line. If file is without extension it recognises that it is folder.
+3: When server encounters the query it sends the file to the client. Then at client side letter highlighting takes place.
+4: After the search has been finished, server sends $$—Done—$$ to signal that no more data is to be sent.
+5:Then in a loop client is asked to download a folder or exit
+6:Multithreading has also been done which essentially put every client into a separate thread so that they could execute in a parallel manner
+
